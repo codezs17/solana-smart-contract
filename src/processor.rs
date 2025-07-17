@@ -20,7 +20,6 @@ pub fn process_instruction(
 
     // let amount = unpack_amount(instruction_data)?;
 
-    
     let instruction = transfer_checked(
         &token_program.key, 
         &from.key, 
